@@ -29,7 +29,7 @@ function initial(){
 // setting up the third party, middlewares
 //setting up cors origin
 app.use(cors(corsOptions));
-//content type= application/json
+//content type= application/json ans
 app.use(express.json());
 //content type=h application/x-www-form-urlecoded
 app.use(express.urlencoded({extended: true}));
